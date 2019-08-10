@@ -1,4 +1,4 @@
-FROM buildpack-deps:artful-scm
+FROM buildpack-deps:bionic-scm
 
 RUN set -ex; \
 	apt-get update; \
